@@ -1,13 +1,18 @@
 import './App.css';
-import Header from './component/Header/Header';
-import User from './component/Header/User/User';
+import Users from './component/Users/Users';
+
+
+// import Counter from './component/Counter/Counter';
+// import Header from './component/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hey, It is come from</h1>
-      <Header></Header>
-      <User></User>
+      {/* <Header></Header>
+      <User></User> */}
+      {/* <Counter></Counter> */}
+      <Users></Users>
     </div>
   );
 }
